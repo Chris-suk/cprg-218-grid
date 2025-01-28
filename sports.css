@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: yellow;
+}
+body {
+    background-color: red;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem; 
+    margin: 0 3rem 3rem; /*trouble*/
+}
+section {
+background-color: rgb(255, 255, 255);
+border: 1px black;
+}
